@@ -11,17 +11,20 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(230,239,246);
+    background-color: #f0f0f0;
+   
 }
-
 
 .top-wrapper {
     width: 600px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .bottom-wrapper {
     display: flex;
     border-radius: 8px;
+    padding-bottom: 30px;
 }
 
 .container-top {
@@ -80,7 +83,6 @@ color: hsl(204, 43%, 93%);
 h1 {
     visibility: hidden;
 }
-
 button {
     margin-top: 30px;
     background-color: hsl(71, 73%, 54%);
@@ -137,7 +139,6 @@ button:hover {
         border-color: hsl(71, 73%, 54%);
         opacity: 1;
     }
-
 }
 
 @media (max-width: 576px) {
@@ -174,46 +175,7 @@ button:hover {
         border-color: hsl(71, 73%, 54%);
         opacity: 1;
     }
-     .body-wrap {
-    padding: 30px;
-    }
+
+    
+     
 }
-
-@media (max-width: 375px) {
-    .top-wrapper {
-        flex-direction: column;
-        width: 80vw;
-        max-height: 80vh;
-    }
-
-    .bottom-wrapper {
-        width: 80vw;
-        max-height: 80vh;
-        border-radius: 0;
-        flex-direction: column;
-        margin: 0;
-        border: none;
-    }
-    .container {
-        width: auto;
-    }
-
-    .left-container {
-        max-height: 250px;
-        border-radius: 0 0 0 0;
-    }
-
-    .right-container {
-        max-height: 250px;
-        border-radius: 0 0 8px 8px;
-    }
-
-    button:hover {
-        background-color: hsl(71, 73%, 54%);
-        border-color: hsl(71, 73%, 54%);
-        opacity: 1;
-    }
-
-}
-
-

@@ -14,11 +14,6 @@ body {
     background-color: rgb(230,239,246);
 }
 
-.body-wrap {
-    border: 1px solid rgba(193,193,193,1.00);
-    border-radius: 8px;
-    box-shadow: 0 2px 4px 0 rgba(193,193,193,1.00);
-}
 
 .top-wrapper {
     width: 600px;

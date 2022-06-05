@@ -113,14 +113,14 @@ button:hover {
 @media (max-width: 768px) {
     .top-wrapper {
         flex-direction: column;
-        width: 65vw;
-        max-height: 65vh;
+        width: 80vw;
+        max-height: 80vh;
     }
 
     .bottom-wrapper {
         flex-direction: column;
-        width: 65vw;
-        max-height: 65vh;
+        width: 80vw;
+        max-height: 80vh;
     }
 
     .container {
@@ -142,18 +142,21 @@ button:hover {
         border-color: hsl(71, 73%, 54%);
         opacity: 1;
     }
+     .body-wrap {
+    padding: 30px;
+    }
 }
 
 @media (max-width: 576px) {
     .top-wrapper {
         flex-direction: column;
-        width: 65vw;
-        max-height: 65vh;
+        width: 80vw;
+        max-height: 80vh;
     }
 
     .bottom-wrapper {
-        width: 65vw;
-        max-height: 65vh;
+        width: 80vw;
+        max-height: 80vh;
         border-radius: 0;
         flex-direction: column;
         margin: 0;
@@ -177,6 +180,9 @@ button:hover {
         background-color: hsl(71, 73%, 54%);
         border-color: hsl(71, 73%, 54%);
         opacity: 1;
+    }
+     .body-wrap {
+    padding: 30px;
     }
 }
 

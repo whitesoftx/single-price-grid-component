@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(170, 163, 155);
+    font-family: 'Karla', sans-serif;
+
+}
+.top-div {
+background-color: white;
+border: 1px solid #dde4f3;
+height: 190px;
+width: 600px;
+margin: 0 auto;
+padding-left: 40px;
+padding-top: 10px;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+box-shadow: 0 2px 4px 0 hsl(179, 65%, 36%);
+margin-top: 250px;
+
+}
+
+.cyan-col {
+    color: hsl(179, 62%, 43%)
+}
+.white-text {
+    padding-left: 40px;
+    padding-top: 10px;
+    color: white;
+}
+
+.white-text-right {
+    color: white;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.white-text-right-right {
+    color: white;
+    font-weight: 600;
+    padding-left: 30px;
+}
+.white-text-right-right-2 {
+    color: #dde4f3;
+
+    padding-left: 30px;   
+}
+
+
+.lemon-col {
+    color: hsl(71, 73%, 54%);
+font-size: 18px;
+
+font-family: 'Karla', sans-serif;
+}
+
+.access-fade {
+    color: #a5b0ce;
+}
+
+/*- Float 2 Divs side by side -*/
+
+.both-div {
+    width: 642px;
+    margin: 0 auto;
+ 
+    }
+    
+.left-div-new {
+    width: 50%;
+    height: 260px; 
+    float: left;
+    background-color: hsl(179, 62%, 40%);
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 2px 4px 0 hsl(179, 65%, 36%);
+    border-right: none;
+    border-bottom-color:hsl(0, 0%, 20%)
+  
+    }
+    
+.right-div-new {
+    margin-left: 50%;
+    height: 260px;
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 2px 4px 0 hsl(179, 65%, 36%);
+    border-left: none;
+    border-bottom-color:hsl(0, 0%, 20%)	
+
+    }
+.span-big-text {
+    font-size: 32px;
+    color: white;
+    margin-left: 40px;
+    
+}
+
+.span-small-text {
+font-size: 14px;
+color: #dde4f3;
+
+
+}
+
+button {
+    margin-left: 40px;
+    background-color: hsl(71, 73%, 54%);
+    color: #ffffff;
+    border: none;
+    width: 235px;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 16px;
+    border-color: hsl(71, 73%, 54%);
+    box-shadow: 0 2px 4px 0 hsl(71, 73%, 40%);
+    cursor: pointer;
+}
+    

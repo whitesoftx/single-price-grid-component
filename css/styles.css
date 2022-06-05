@@ -186,3 +186,43 @@ button:hover {
     }
 }
 
+@media (max-width: 375px) {
+    .top-wrapper {
+        flex-direction: column;
+        width: 80vw;
+        max-height: 80vh;
+    }
+
+    .bottom-wrapper {
+        width: 80vw;
+        max-height: 80vh;
+        border-radius: 0;
+        flex-direction: column;
+        margin: 0;
+        border: none;
+    }
+    .container {
+        width: auto;
+    }
+
+    .left-container {
+        max-height: 250px;
+        border-radius: 0 0 0 0;
+    }
+
+    .right-container {
+        max-height: 250px;
+        border-radius: 0 0 8px 8px;
+    }
+
+    button:hover {
+        background-color: hsl(71, 73%, 54%);
+        border-color: hsl(71, 73%, 54%);
+        opacity: 1;
+    }
+     .body-wrap {
+    padding: 30px;
+    }
+}
+
+

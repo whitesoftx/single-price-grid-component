@@ -82,6 +82,10 @@ color: hsl(204, 43%, 93%);
     font-weight: 700;
 }
 
+h1 {
+    visibility: hidden;
+}
+
 button {
     margin-top: 30px;
     background-color: hsl(71, 73%, 54%);

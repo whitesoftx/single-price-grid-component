@@ -55,17 +55,17 @@ border-radius: 8px 8px 0 0;
     border-radius: 0 0 0 8px;
 }
 
-.cyan-color {
+.heading-details-1 {
     font-weight: 700;
     color: hsl(179, 62%, 43%)  
 }
 
-.bright-yellow-color {
+.heading-details-2 {
     color: hsl(71, 73%, 54%);
     font-size: 15px;
 }
 
-.greyish-blue-color {
+.heading-details-3 {
     font-size: 14px;
     color: hsl(218, 22%, 67%)
 }
@@ -80,9 +80,26 @@ color: hsl(204, 43%, 93%);
     font-weight: 700;
 }
 
+
 h1 {
-    visibility: hidden;
+    font-size: 19px;
+    font-family: 'Karla', sans-serif;
 }
+
+p.price 
+{
+  display:flex;
+  align-items:center
+}
+span
+{
+display:inline-flex
+}
+p.price span.month-text 
+{
+padding-left:10px;
+}
+
 button {
     margin-top: 30px;
     background-color: hsl(71, 73%, 54%);
